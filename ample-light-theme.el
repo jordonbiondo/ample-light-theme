@@ -122,8 +122,8 @@
    `(lazy-highlight	((t (:background ,ample/bg :foreground ,ample/purple :underline t))))
 
    ;; ace-jump
-   `(ace-jump-face-background ((t (:inherit font-lock-comment-face))))
-   `(ace-jump-face-foreground ((t (:foreground ,ample/orange))))
+   `(ace-jump-face-background ((t (:inherit font-lock-comment-face :background nil))))
+   `(ace-jump-face-foreground ((t (:foreground ,ample/purple :bold t :background nil))))
 
    `(vertical-border ((t (:background ,ample/darker-gray :foreground ,ample/darkest-gray))))
 

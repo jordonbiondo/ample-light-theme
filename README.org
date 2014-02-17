@@ -16,3 +16,6 @@
 #+END_SRC
 ** Screenshot on the latest Windows build:
    [[http://i.imgur.com/kEpzllk.png]]
+
+** Screenshot ample-light vs ample
+   [[http://i.imgur.com/86VLSV9.png]]

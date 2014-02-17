@@ -1,13 +1,13 @@
 ;;; ample-theme.el --- Calm Light Theme for Emacs
 ;;
 ;; Filename: ample-light-theme.el
-;; Description: Calm Dark Theme for Emacs
+;; Description: Calm light Theme for Emacs
 ;; Author: Jordon Biondo <biondoj@mail.gvsu.edu>
 ;; Created: Wed Jul 24 01:04:58 2013 (-0400)
 ;; Version: 0.2.7
-;; Last-Updated: Mon Feb 17 08:35:44 2014 (-0500)
+;; Last-Updated: Mon Feb 17 10:05:16 2014 (-0500)
 ;;           By: jordon.biondo
-;;     Update #: 27
+;;     Update #: 28
 ;; URL: https://github.com/jordonbiondo/ample-theme
 ;; Keywords: theme, light, ample
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -516,8 +516,8 @@
    ;;`(magit-cherry-unmatched			((t (:foreground "magenta" :background nil))))
    `(magit-diff-add				((t (:foreground nil :background ,ample/light-green-bg))))
    `(magit-diff-del				((t (:foreground nil :background ,ample/light-red-bg))))
-   `(magit-diff-file-header			((t (:foreground ,ample/bg :background ,ample/blue :bold t))))
-   `(magit-diff-hunk-header			((t (:foreground ,ample/bg :background ,ample/blue))))
+   `(magit-diff-file-header			((t (:foreground ,ample/bg :background ,ample/region :bold t))))
+   `(magit-diff-hunk-header			((t (:foreground ,ample/bg :background ,ample/light-blue-bg))))
    `(magit-diff-merge-current			((t (:foreground ,ample/orange :background nil))))
    `(magit-diff-merge-diff3-separator		((t (:foreground ,ample/orange :background nil))))
    `(magit-diff-merge-proposed			((t (:foreground ,ample/orange :background nil))))
@@ -575,4 +575,4 @@
 
 (provide-theme 'ample-light)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; ample-theme.el ends here
+;;; ample-light-theme.el ends here

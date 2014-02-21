@@ -1,21 +1,2 @@
 * ample-light-theme.el
-  A calm, light theme for Emacs. The light version of [[https://www.github.com/jordonbiondo/ample-theme][ample-theme]]
-  - Full colored gui and 256 color support only for now
-** Installation (NOT AVAILABLE YET)
-
-    If Marmalade or MELPA are set up: 
-    #+BEGIN_SRC emacs-lisp
-      (package-install 'ample-light-theme) ;; jk it is not there yet...
-      
-      (load-theme 'ample-light t) ;; nope
-    #+END_SRC
-** If you get ugly colors in terminal:
-#+BEGIN_SRC shell-script
-  # throw this in your ~/.bash_profile
-  export TERM="xterm-256color"
-#+END_SRC
-** Screenshot on the latest Windows build:
-   [[http://i.imgur.com/kEpzllk.png]]
-
-** Screenshot ample-light vs ample
-   [[http://i.imgur.com/86VLSV9.png]]
+  merged into github.com/jordonbiondo/ample-theme
